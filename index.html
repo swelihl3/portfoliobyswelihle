@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="web fonts/styless.css">
+    <link rel="stylesheet" href="web fonts/all.mib.css">
+    <link rel="stylesheet" href="web fonts/quiries.css">
+    
+</head>
+
+<body>
+
+    <script >
+    function toggleMenu(){
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+
+}
+
+    </script>
+    <nav id="dekstop-nav">
+        <div class="logo">Swelihle Thusi</div>
+        
+       
+        <div class="dekstop-nav">
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#expirience">expirience</a></li>
+                <li><a href="#projects">project</a></li>
+                <li><a href="#contact">contact</a></li>
+                    
+
+
+            </ul>
+
+
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">sweh</div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        <div class="menu-links">
+
+            <li><a href="#about" onclick="toggleMenu()">about</a></li>
+            <li><a href="#expirience" onclick="toggleMenu()">expirience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()" >project</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">contact</a></li>
+
+        </div>
+
+
+
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+
+            <img src="swee.jpg" alt="my profile" style="border-radius: 12300px; ">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello I'm </p>
+            <h1 class="title">Swelihle Thusi</h1>
+            <p class="section__text__p2">Frontend developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                    onclick="window.open('./assets/swe-cv.pdf')";
+                    > downoald cv
+
+                </button>
+                <button class="btn btn-color-1"
+                    onclick="location.href='./#contact'";
+                    > contact
+
+                </button>
+
+            </div>
+
+            <div id="socials-container">
+                <i class="fab fa-linkedin"></i>
+                <img src="icons8-github-24.png" alt="github" 
+                class="icon" 
+                onclick="location.href='https://github.com/swelihl3'">
+                
+                <img width="24" height="24"  src="icons8-linkedin-48.png" alt="linkedin" 
+                class="icon" 
+                onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'">
+  
+
+            </div>
+
+
+        </div>
+         
+    </section>
+    <section id="about">
+
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="tittle">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="hat.png" alt="profile picture" class="about-pic" style="border-radius: 20%;">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="icons8-experience-48.png"
+                         alt="me"
+                         class="icon">
+                         <h3>Expirience</h3>
+                         <p>1st year <br>Fronted learner</p>
+
+
+                    </div>
+                    <div class="details-container">
+                        <img src="icons8-education-48.png"
+                        
+                         alt="education icon"
+                         class="icon">
+                         <h3>Education</h3>
+                         <p>DIP IN ICT </p>
+
+
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p>i'm a junior Fronted developer who is very passionate about web 
+                        development currently studying but ey' mfowethu nawe uyabona ngiyakwazi ukuyenza lento 
+                        ngeke ngilokh ngichaza isingisi esingekho lana ngyi ngqwele mina ayenziwa leyonto ngyenqaba
+                    </del></p>
+
+                </div>
+
+            </div>
+            
+
+        </div>
+        <img src="icons8-experience-48.png" alt="arrow icon"
+        onclick="location.href='./expirience'">
+
+
+    </section>
+    <section id="expirience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Expirience</h1>
+        <div class="expirience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="expirience-sub-title">Fronted Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>intermediate</p>
+
+                            </div>
+                            
+                        </article>
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>intermediate</p>
+
+                            </div>
+                            
+                        </article>
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>javascript</h3>
+                                <p>Junior Developer</p>
+
+                            </div>
+                            
+                        </article>
+                        
+                        
+                            
+                        </article>
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Junior Developer</p>
+
+                            </div>
+                            
+                        </article>
+                        
+
+
+                    </div>
+
+                </div>
+                    <div class="details-container">
+                    <h2 class="expirience-sub-title">Other Relevant Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>networks and configuration</h3>
+                                <p>intermediate</p>
+
+                            </div>
+                            
+                        </article>
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>python</h3>
+                                <p>intermediate</p>
+
+                            </div>
+                            
+                        </article>
+                        <article>
+                            <img src="icons8-tick-30.png" alt="expirience icon" 
+                            class="icon">
+                            <div>
+                                <h3>java</h3>
+                                <p>Junior Developer</p>
+
+                            </div>
+                            
+                        </article>
+                        
+                        
+                            
+                    </article>
+                    
+                        
+                        
+
+
+                    </div>
+
+            
+            
+
+
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="expirience-details-container">
+            <div></div>
+          
+            <div class="details-container color-container">
+
+                <div class="article-container">
+                    <img  src="document-marketing-strategy-business-concept.png"
+                    width=" 100%"
+                     alt="logo"
+                     class="project-logo" alt="logo">
+                     
+
+                </div>
+                <h2 class="expirience-sub-title project title"> Project One</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+                    > view project
+
+                    </button >
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+ 
+                    
+                    > live Demo
+
+                    </button>
+
+                </div>
+            </div>
+                    
+
+                </div>
+                
+
+            </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="icons8-email-48.png"
+             alt="email icon"
+             class="icon contact-icon"
+             
+             >
+             <p><a href="mailto:swelihle952@gmail.com">swelihle952@gmail.com</a></p>
+
+        </div>
+        <div class="contact-info-container">
+            <img src="icons8-linkedin-48.png"
+             alt=""   
+             
+             class="icon contact-icon"
+             > 
+
+             <p><a href="https://linkedin.com/in/swe-lihle-223b50385'">linkedin
+                        </a></p>
+
+         </div> 
+        </div>
+
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container" >
+                <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#expirience">expirience</a></li>
+                <li><a href="#projects">project</a></li>
+                <li><a href="#contact">contact</a></li>
+                
+
+            </ul>
+
+            </div>
+    
+        </nav>
+    
+        <p>copyright &#169 2025 swelihle Thusi all right reserved</p>
+    </footer>
+
+   
+ 
+
+<!----
+        <section id="projects">
+        <p class="section__text__p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="expirience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img  src="Screenshot_16-9-2025_155331_127.0.0.1.jpeg"
+                    width="100%"
+                     alt="logo"
+                     class="project-logo" alt="logo">
+                     
+
+                </div>
+                <h2 class="expirience-sub-title project title"> Project two</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+                    > view project
+
+                    </button >
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+ 
+                    
+                    > live Demo
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        </div>
+
+
+          </div>
+        </section>
+
+
+
+
+        
+        </div>
+
+
+    </section>
+
+        <section id="projects">
+        <p class="section__text__p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="expirience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img  src="mgz.png"
+                    width="100%"
+                    
+                     alt="logo"
+                     class="project-logo" alt="logo">
+                     
+
+                </div>
+                <h2 class="expirience-sub-title project title"> Project three</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+                    > view project
+
+                    </button >
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://linkedin.com/in/swe-lihle-223b50385'" alt="project logo"
+ 
+                    
+                    > live Demo
+
+                    </button>
+
+                </div>
+        </div>
+                
+
+            
+        </div>
+        </div>
+
+    
+    </section>
+
+-->
+
+            
+        
+        
+        
+
+</body>
+</html>
